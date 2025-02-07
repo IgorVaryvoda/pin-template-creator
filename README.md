@@ -1,6 +1,6 @@
 # Project Title
 
-A brief description of your project and its purpose.
+This project processes images from the `input_images` folder by converting them into circular images and then assembling them into a single PDF (`output.pdf`). In short, it takes your regular images, crops and masks them into circles, and neatly arranges them on A4 pages. Useful for pins, stickers, etc.
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@ A brief description of your project and its purpose.
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Explanation](#explanation)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -34,13 +35,22 @@ Follow these steps to set up the project locally:
 
 ## Usage
 
-To run the project, execute the following command:
+Make sure your images are placed in the `input_images` folder, then run the script:
 
 ```bash
 python main.py
 ```
 
-> If additional configuration is needed, include instructions here.
+This will process the images and generate `output.pdf` with all the circular images arranged on A4 pages.
+
+## Explanation
+
+The script (`main.py`) does the following:
+
+- **Image Processing:**
+  Opens each image, center-crops it to a square, resizes it based on a 58mm target, and applies a circular mask to create a neat round image.
+- **PDF Generation:**
+  Arranges these circular images in a grid layout on an A4 page (or multiple pages) and outputs a single PDF file.
 
 ## Contributing
 
