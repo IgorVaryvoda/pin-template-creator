@@ -19,13 +19,13 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone git@github.com:IgorVaryvoda/pin-template-creator.git
    ```
 
 2. **Change to the project directory:**
 
    ```bash
-   cd yourproject
+   cd pin-template-creator
    ```
 
 3. **Install the dependencies:**
