@@ -1,10 +1,10 @@
-# Project Title
+# Pin Template Creator
 
 This project processes images from the `input_images` folder by converting them into circular images and then assembling them into a single PDF (`output.pdf`). In short, it takes your regular images, crops and masks them into circles, and neatly arranges them on A4 pages. Useful for pins, stickers, etc.
 
 ## Table of Contents
 
-- [Project Title](#project-title)
+- [Pin Template Creator](#pin-template-creator)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
