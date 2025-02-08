@@ -12,7 +12,7 @@ INPUT_IMAGES_DIR = "input_images"
 # Output PDF file name.
 OUTPUT_PDF = "output.pdf"
 # Target diameter in millimeters.
-TARGET_MM = 58
+TARGET_MM = 60
 # DPI for image resizing (for print quality).
 DPI = 300
 # Convert 58mm to pixels (for Pillow processing).
