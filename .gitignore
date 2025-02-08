@@ -80,3 +80,4 @@ output.pdf
 
 # Input images
 input_images/*
+!input_images/.gitkeep
