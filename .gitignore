@@ -77,3 +77,6 @@ instance/
 
 # Generated output files
 output.pdf
+
+# Input images
+input_images/*
